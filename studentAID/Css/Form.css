@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background: url(/STUDENTAID/images/bgf.jpg) top center / cover;
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    background-color: #2F4F4F;
+    height: 4rem;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 999999;
+}
+.main-logo{
+    margin-left: 2rem;
+    font-size: 2rem;
+    display: flex;
+}
+.main-logo img{
+    width: 45px;
+}
+.main-logo h4{
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+}
+.navbar a:hover{
+    color: #ce4d42;
+}
+.signup a{
+    align-self: flex-end;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: whitesmoke;
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    padding: 1.4rem 2rem 1.3rem;
+    font-size: larger;
+    color: #000;
+    font-weight: bolder;
+}
+.signup a:hover{
+    background-color:  #ce4d42;
+    border: 1px solid #ce4d42;
+}
+.body{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#image{
+    width: 700px;
+}
+#image {
+    /* position: absolute; */
+    animation: bounce 5s infinite; /* Adjust the animation duration as desired */
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px); /* Adjust the bounce height as desired */
+    }
+}

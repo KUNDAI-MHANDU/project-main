@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9fafa;
+    font-family: 'Lato', sans-serif;
+}
+p{
+    letter-spacing: 0.1rem;
+}
+.hero{
+    background-image: url(/STUDENTAID/images/pexels-rodnae-productions-768334\ \(1\).gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3.7px);
+    height: 100vh;
+    z-index: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: absolute;
+    top: 4rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+.content p{
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+    color: gold;
+    font-weight: 400;
+}
+h1{
+    font-family: Helvetica;
+}
+#h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 8rem;
+}
+.header{
+    background-color: #2F4F4F;
+    height: 4rem;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.main-logo{
+    margin-left: 2rem;
+    font-size: 2rem;
+    display: flex;
+}
+.main-logo img{
+    width: 45px;
+}
+.main-logo h4{
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+}
+.navbar a:hover{
+    color: #ce4d42;
+}
+.signup a{
+    align-self: flex-end;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: whitesmoke;
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    padding: 1.4rem 2rem 1.3rem;
+    font-size: larger;
+    color: #000;
+    font-weight: bolder;
+}
+.signup a:hover{
+    background-color:  #ce4d42;
+    border: 1px solid #ce4d42;
+}
+.social-links{
+    max-width: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: goldenrod;
+    position: absolute;
+    top: 35%;
+    right: 0px;
+    position: fixed;
+    z-index: 3;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.social-links:hover{
+    background-color:  rgba(0, 0, 0, 0);
+}
+.social-links img{
+    align-self: center;
+    width: 50%;
+    color: #fff;
+    margin: 1rem;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+#img3{
+    border-radius: 30%;
+}
+#img1:hover{
+    animation: jump 0.9s ease-in-out;
+    border-radius: 50%;
+    border: 1px solid #3B5998;
+    background-color: #3B5998;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+#img2:hover{
+    animation: jump 0.9s ease-in-out;
+    border-radius: 50%;
+    border: 1px solid #1DA1F2;
+    background-color: #1DA1F2;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+#img3:hover{
+    animation: jump 0.9s ease-in-out;
+    border-radius: 30%;
+    border: 1px solid #ce4d42;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+#img4:hover{
+    animation: jump 0.9s ease-in-out;
+    border-radius: 50%;
+    border: 1px solid goldenrod;
+    background-color: red;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+.top-mid-section{
+    height: 700px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    margin:0 4rem -5em 4rem;
+    position: relative;
+    bottom: 5em;
+    color: whitesmoke;
+}
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;  
+    background-color: white;
+    color:  #2F4F4F;
+}
+.mission p{
+    width: 60%;
+    margin-top: 1rem;
+    text-align: center;
+}
+.mission h1{
+    text-transform: uppercase;
+}
+.signin{
+    background-image: url('/STUDENTAID/images/pexels-william-fortunato-6140697.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-contn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 100%;
+    padding: 50px;
+    background-color: #ce4e428e;
+}
+.info-contn p{
+    margin-top: 1rem;
+    text-align: center;
+}
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-in input{
+    border: 0px;
+    background-color: #ce4e4200;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+.sign-in a{
+    margin-top: 10px;
+    width: 80%;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.sign-in a:hover{
+    background-color: #ce4e42;
+    border-radius: 30px;
+}
+::placeholder{
+    color: whitesmoke;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #17ccba;
+}
+.news h1{
+    display: flex;
+    justify-content: center;
+}
+.news p{
+    width: 60%;
+    margin-top: 1rem;
+    text-align: center;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 50px;
+    background-color:  #2F4F4F;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form input{
+    background-color: #2f4f4f;
+    border: 0px;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+.form a{
+    width: 80%;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.form a:hover{
+    background-color: #3b6b6b8a;
+    border-radius: 30px;
+}
+.features{
+    height: 300px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2F4F4F;
+}
+.mid-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.whereAbouts{
+    color:  #2F4F4F;
+    text-decoration: none;
+    width: 40%;
+    background-color: white;
+    border: 1px solid gainsboro;
+    transition: 0.5s;
+}
+.whereAbouts p{
+    padding: 20px;
+    text-align: center;
+}
+.whereAbouts h1{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.whereAbouts-img{
+    width: 100%;
+    height: 45vh;
+    background-image: url('/STUDENTAID/images/pexels-leah-kelley-3935702\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+}
+.whereAbouts:hover{
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-20px);
+}
+.maintenance{
+    color:  #2F4F4F;
+    text-decoration: none;
+    width: 40%;
+    background-color: white;
+    border: 1px solid gainsboro;
+    transition: 0.5s;
+}
+.maintenance p{
+    padding: 20px;
+    text-align: center;
+}
+.maintenance h1{
+    display: flex;
+    justify-content: center;
+}
+.maintance-img{
+    width: 100%;
+    height: 45vh;
+    background-image: url('/STUDENTAID/images/pexels-athena-5805491.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(0.5px);
+}
+.maintenance:hover{
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-20px);
+}
+.hug{
+    display: flex;
+    justify-content: center;
+}
+.readmore{
+    margin-top: 4rem;
+}
+.contain {
+    margin-top: 12rem;
+    background-image: url('/STUDENTAID/images/pexels-keira-burton-6147134.jpg');
+    background-size: cover;
+    height: 30vh;
+    position: relative;
+    width: 89%;
+}
+  
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ce4e4277;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.overlay h1{
+    color: whitesmoke;
+    font-size: x-large;
+}
+.overlay a{
+    text-decoration: none;
+    color: #ce4e42;
+    background-color: white;
+    padding: 30px;
+    border-radius: 60px;
+}
+.overlay a:hover{
+    color: #2F4F4F;
+}
+.contain{
+    background-attachment: fixed;
+}
+  
+.overlay:hover + .contain{
+    background-attachment: initial;
+}
+.new-header{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: x-large;
+    color: #2F4F4F;
+}
+.news-feeds{
+    height: 300px;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    background-color: rgba(211, 211, 211, 0.568);
+    color: #2F4F4F;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.contact h1{
+    margin-bottom: 1rem;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.connect a{
+    text-decoration: none;
+    color: inherit;
+}
+.connect h1{
+    margin-bottom: 1rem;
+}
+.subscribe-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe-f h1{
+    margin-bottom: 2rem;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form2 input{
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0);
+    border: none;
+    border-bottom: 1px solid;
+}
+.form2 input::placeholder{
+    color: #2F4F4F;
+}
+.form2 a{
+    margin-top: 10px;
+    width: 60%;
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #2F4F4F;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.footer2{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #099183;
+    font-size: small;
+}
+.copy-rights{
+    font-size: x-small;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F4F4F;
+    color: whitesmoke;
+}
+@keyframes jump {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
